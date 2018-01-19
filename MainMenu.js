@@ -55,10 +55,15 @@ var MainMenu = {
 		function listener1 (b1, b2) {
 			b1.alpha = 0.6;
 			b2.alpha = 0.6;
-		}	
+		}
+
+		ascent = 0;
+		score = 0;
+		lives = 3;
+		finishcheck = 0;
+
 	},
 
 	update: function(){
-		lives = 3;
 	}
 }	
